@@ -27,37 +27,6 @@ This project is a simple Java console-based application that manages student and
 - **Arrays** – fixed-size storage for objects  
 - **User Input** – `Scanner` class for interactive input  
 
----
-
-## 🏗️ Class Structure
-Teachable (Interface)
-├── study()
-└── getInfo()
-
-Person (Abstract Class) implements Teachable
-├── name (String)
-├── id (int)
-├── Constructor
-├── abstract role()
-├── study() (default implementation)
-└── getInfo() (returns "id: name")
-
-Student extends Person
-├── course (String)
-├── Constructor
-├── role() → "is a Student"
-└── study() → "studying course"
-
-Teacher extends Person
-├── subject (String)
-├── Constructor
-├── role() → "is a Teacher"
-└── study() → "teaching subject"
-
-Project5 (Main Class)
-└── Contains main() with menu loop and array management
-
-text
 
 ---
 
@@ -106,16 +75,9 @@ Dr. Smith is a Teacher
 Dr. Smith teaching Mathematics
 201: Dr. Smith
 
-text
 
 ---
 
-## 📂 Project Structure
-Student-Teacher-Management-System/
-│── Project5.java
-│── README.md
-
----
 
 ✍️ Author
 KARTHIKEYAN K U
