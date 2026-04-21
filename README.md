@@ -48,31 +48,52 @@ This project is a simple Java console-based application that manages student and
 ---
 
 ## 💻 Sample Input
+
+
 1.Add Student
+
 2.Add Teacher
+
 3.Show All
+
 4.Exit
+
 Choice: 1
+
 ID: 101
+
 Name: Alice
+
 Course/Subject: Computer Science
 
+
 Choice: 2
+
 ID: 201
+
 Name: Dr. Smith
+
 Course/Subject: Mathematics
+
 
 Choice: 3
 
 
 
 ## 📤 Sample Output
+
+
 Alice is a Student
+
 Alice studying Computer Science
+
 101: Alice
 
+
 Dr. Smith is a Teacher
+
 Dr. Smith teaching Mathematics
+
 201: Dr. Smith
 
 
